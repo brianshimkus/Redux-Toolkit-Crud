@@ -1,3 +1,4 @@
+import { Link } from './components/Link'
 import { MovieInput } from './components/MovieInput'
 import { MovieList } from './components/MovieList'
 
@@ -8,6 +9,8 @@ function App() {
 				<MovieInput />
 				<hr className='my-4 bg-slate-700 h-1 border-none' />
 				<MovieList />
+				<hr className='my-8 bg-slate-700 h-1 border-none' />
+				<Link />
 			</div>
 		</div>
 	)

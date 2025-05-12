@@ -18,9 +18,9 @@ export const MovieList = () => {
 				<div
 					className='flex justify-between bg-slate-600 mb-4 p-2 rounded-md text-wrap'
 					key={movie.id}>
-					<h2 className='text-2xl mt-3 ml-4'>{movie.name}</h2>
+					<p className='text-xl ml-4 pt-1'>{movie.name}</p>
 					<button
-						className='bg-red-400 hover:bg-red-300 text-red-800 font-bold py-3 px-4 rounded cursor-pointer transition duration-200 ease-in-out mt-2'
+						className='bg-red-400 hover:bg-red-300 text-red-800 font-bold px-2 py-2 rounded cursor-pointer transition duration-200 ease-in-out'
 						onClick={() => handleRemoveMovie(movie.id)}>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
@@ -28,7 +28,7 @@ export const MovieList = () => {
 							viewBox='0 0 24 24'
 							strokeWidth='1.5'
 							stroke='currentColor'
-							className='size-6'>
+							className='size-5'>
 							<path
 								strokeLinecap='round'
 								strokeLinejoin='round'
