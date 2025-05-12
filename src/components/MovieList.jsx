@@ -12,7 +12,7 @@ export const MovieList = () => {
 	return (
 		<div>
 			<div className='flex items-center justify-between mb-4'>
-				<h1 className='text-2xl font-bold text-slate-200'>Movie List</h1>
+				<h1 className='text-2xl font-bold text-slate-200'>Movies</h1>
 			</div>
 			{movies.map((movie) => (
 				<div

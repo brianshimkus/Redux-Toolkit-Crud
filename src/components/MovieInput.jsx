@@ -15,6 +15,11 @@ export const MovieInput = () => {
 	}
 	return (
 		<>
+			<div className='flex items-center justify-between mb-4'>
+				<h1 className='text-2xl font-bold text-slate-200'>
+					Movie list using Redux
+				</h1>
+			</div>
 			<input
 				className='bg-slate-600 p-2 rounded-md border-2 border-slate-700 text-slate-200 outline-none focus:border-slate-500 w-full'
 				placeholder='Add a new movie'
